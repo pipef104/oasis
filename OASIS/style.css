@@ -222,6 +222,21 @@ border-radius: 40px;
   letter-spacing: 2px;
 }
 
+.sec6{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+}
+
+.sec6-1, .sec6-2{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
 
 .italic{
   font-family: Georgia, 'Times New Roman', Times, serif;
