@@ -140,6 +140,20 @@ nav {
 
 .sec7 {
   display: flex;
+  width: 100%;
+  gap: 50%;
+}
+
+
+.sec7-2{
+  text-align: justify;
+  font-weight: 600;
+  font-size: 2vh;
+  margin-right: 15vh;
+}
+
+.sec7 p {
+  margin-top: 4vh;
 }
 
 .sec3{
