@@ -51,6 +51,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  overflow: hidden;
 }
 
 .c-item {
@@ -163,6 +164,7 @@ nav {
 .sec4 {
   height: 700px;
 }
+
 .section-title {
   text-align: center;
   padding: 25px 0;
@@ -205,8 +207,8 @@ nav {
 }
 
 .map-area iframe {
-  width: 100%;
-  height: 100%;
+  width: 100% !important; 
+  height: 100% !important;
   border: none;
 }
 
@@ -256,6 +258,41 @@ nav {
 .sec5 input,
 label {
   font-weight: 600;
+}
+
+@media (max-width: 390px) {
+  .sec2{
+    flex-direction: column;
+  }
+
+  .sec2 p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sec2 h2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 29vh;
+  }
+  .sec4{
+    margin-top: 6vh;
+    flex-direction: column;
+  }
+  .sec4 h2{
+    font-size: 5vh;
+  }
+  .sec5{
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec7{
+    flex-direction: column;
+    text-align: center;
+
+  }
+  
 }
 
 .sec6 {
