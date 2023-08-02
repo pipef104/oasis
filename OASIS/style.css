@@ -150,7 +150,9 @@ nav {
   text-align: justify;
   font-weight: 600;
   font-size: 2vh;
-  margin-right: 15vh;
+  /* margin-right: 15vh; */
+  justify-content: right;
+  margin-right: 6vh;
 }
 
 .sec7 p {
@@ -190,7 +192,7 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
-.contact-form .btn {
+.btn {
   background: #51d5fd;
   text-transform: uppercase;
   font-weight: 700;
@@ -260,6 +262,34 @@ label {
   font-weight: 600;
 }
 
+@media (max-width: 759px) {
+  .sec2 p{
+    text-align: center;
+    font-size: 3.5vh;
+  }
+  .sec2 h2{
+    text-align: center;
+    margin-top: 20vh;
+  }
+  .sec5 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .child5-1 h2{
+    text-align: center;
+  }
+
+  .child5-2{
+    margin-top: 10vh;
+    width: 60vh;
+  }
+
+  .map-area{
+    margin-top: 10vh;
+  }
+}
+
 @media (max-width: 390px) {
   .sec2{
     flex-direction: column;
@@ -287,12 +317,24 @@ label {
     flex-direction: column;
     align-items: center;
   }
+
+  .child5-1 h2{
+    font-size: 2vh;
+    justify-content: center;
+    text-align: center;
+  }
+
   .sec7{
     flex-direction: column;
     text-align: center;
-
+  }
+  .sec7-2{
+    justify-content: center;
   }
   
+  .map-area{
+    margin-top: 10vh;
+  }
 }
 
 .sec6 {
